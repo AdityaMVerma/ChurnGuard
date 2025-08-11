@@ -153,7 +153,7 @@ Handled in `src/evaluation/evaluate_models.py`.
 Four tabs:
 
 <h3>📊 Exploratory Data Analysis</h3>
-<img src="Images/eda.png" alt="EDA Screenshot" width="800"/>
+<img src="Images/EDA.png" alt="EDA Screenshot" width="800"/>
 
 - 📊 Monthly Charges vs Churn – `histplot`
 - 📈 Tenure Distribution by Churn – `kdeplot`
