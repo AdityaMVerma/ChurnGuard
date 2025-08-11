@@ -20,7 +20,6 @@ Follow these steps to run the Telecom Churn Prediction project locally.
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/AdityaMVerma/ChurnGuard.git
-cd telecom_churn
 ```
 
 ### 2️⃣ Install Dependencies
