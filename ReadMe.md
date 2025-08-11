@@ -150,23 +150,34 @@ Handled in `src/evaluation/evaluate_models.py`.
 
 ## 💻 Streamlit Web Application (`app.py`)
 
-Three tabs:
+Four tabs:
 
-### 1️⃣ EDA
+<h3>📊 Exploratory Data Analysis</h3>
+<img src="Images/eda.png" alt="EDA Screenshot" width="800"/>
+
 - 📊 Monthly Charges vs Churn – `histplot`
 - 📈 Tenure Distribution by Churn – `kdeplot`
 - 📬 Churn by Payment Method – `countplot`
 - 📞 Phone vs Internet Service – `countplot`
 - 📊 Churn Rate by Contract Type – stacked bar chart
 
-### 2️⃣ Single Prediction
+
+<h3>🧍 Single Prediction</h3>
+<img src="Images/SINGLE_PREDICTION.png" alt="Single Prediction Screenshot" width="800"/>
+
 - Implemented in `src/prediction/predict.py`
 - Loads best model + preprocessor  
 - Accepts inputs via UI or code  
 - Returns churn status + probability
 
-### 3️⃣ Batch Prediction
+<h3>📦 Batch Prediction</h3>
+<img src="Images/BATCH_PREDICTION.png" alt="Batch Prediction Screenshot" width="800"/>
 - Implemented in `src/prediction/predict_batch.py`
 - Accepts CSV upload
 - Applies preprocessing
 - Outputs predictions & optional CSV export
+
+<h3>📈 Model Evaluation</h3>
+<img src="Images/MODEL EVALUATION.png" alt="Model Evaluation Screenshot" width="800"/>
+
+
